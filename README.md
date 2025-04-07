@@ -1,11 +1,11 @@
-****Data Cleaning & Preprocessing – Project Summary****
+****Data Cleaning & Preprocessing – Project Summary****  
 📁 **Objective**:
 The goal of this project was to clean and standardize a raw dataset containing order, shipping, and transaction information in preparation for analysis. This included handling missing values, renaming columns for clarity and consistency, converting data types, and exporting the final cleaned version to a CSV file.
-**Steps Performed**:
+**Steps Performed**:  
 1. Loading the Dataset
-Loaded the dataset into a Pandas DataFrame using Jupyter Notebook.
-2. Handling Null Values
-Identified missing (null / NaN) values in multiple columns.
+Loaded the dataset into a Pandas DataFrame using Jupyter Notebook.  
+2. Handling Null Values  
+Identified missing (null / NaN) values in multiple columns.  
 Replaced null values in specific shipping-related columns (ship-city, ship-state, ship-postal-code, ship-country, fulfilled-by) with 0.
 Dropped rows with null values in critical financial columns currency and amount.
 3. Renaming Columns
